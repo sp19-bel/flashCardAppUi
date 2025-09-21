@@ -1,0 +1,51 @@
+.progress {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.progress h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.progress p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.progress ul {
+  color: #666;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+}
+
+.progress li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .progress {
+    padding: 1.5rem 0.75rem;
+  }
+  
+  .progress h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress {
+    padding: 1rem 0.5rem;
+  }
+  
+  .progress h1 {
+    font-size: 1.5rem;
+  }
+  
+  .progress ul {
+    padding-left: 1.25rem;
+  }
+}
